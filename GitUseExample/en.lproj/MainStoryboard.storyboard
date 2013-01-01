@@ -25,11 +25,43 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="hWJ-T5-ve9"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sxj-bX-cpV">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="a39-35-OE1"/>
+                                    <constraint firstAttribute="height" constant="128" id="fhh-XA-kFJ"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y9Y-id-neX">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="3eH-Cw-ZmK"/>
+                                    <constraint firstAttribute="width" constant="240" id="QFR-Ky-i7F"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aWh-H0-w39">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="OxO-XZ-oTl"/>
+                                    <constraint firstAttribute="width" constant="240" id="ipC-bo-9dn"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="aWh-H0-w39" firstAttribute="top" secondItem="3" secondAttribute="top" constant="46" id="7nq-qw-Qwi"/>
+                            <constraint firstItem="y9Y-id-neX" firstAttribute="top" secondItem="3" secondAttribute="top" constant="112" id="AtB-bV-9Ml"/>
                             <constraint firstItem="t5I-gB-LXe" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="103" id="VXh-fm-ZqW"/>
+                            <constraint firstAttribute="bottom" secondItem="Sxj-bX-cpV" secondAttribute="bottom" constant="50" id="aXw-cr-U1Y"/>
+                            <constraint firstItem="y9Y-id-neX" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="155" id="fCa-WH-dzd"/>
                             <constraint firstItem="t5I-gB-LXe" firstAttribute="top" secondItem="3" secondAttribute="top" constant="237" id="nGO-5j-E4P"/>
+                            <constraint firstItem="aWh-H0-w39" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="nja-PF-cRS"/>
+                            <constraint firstItem="Sxj-bX-cpV" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="65" id="o1N-ch-3ms"/>
                         </constraints>
                     </view>
                 </viewController>
